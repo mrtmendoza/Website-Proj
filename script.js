@@ -1,9 +1,9 @@
 var menuIcon = document.querySelector(".menu-icon")
-var sidebar = document.querySelector(".sidebar")
+var topbar = document.querySelector(".topbar")
 var container = document.querySelector(".container")
 
 menuIcon.onclick = function(){
-    sidebar.classList.toggle("small-sidebar");
+    topbar.classList.toggle("small-topbar");
     container.classList.toggle("large-container")
 
 }
